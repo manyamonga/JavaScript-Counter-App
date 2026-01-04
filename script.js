@@ -26,6 +26,8 @@ reset.addEventListener("click" , function() {
 
 if (count > 50) {
     num.style.color = "green";
-} else if (count <= 50) {
+} else if (count > 0) {
     num.style.color = "orange";
-} 
+} else {
+    num.style.color = "red";
+}
